@@ -1,23 +1,54 @@
 body {
-    background-color: aquamarine;
-    font-family: gaegu;
+  background-color: aquamarine;
+  font-family: gaegu;
+  color: white;
+}
+
+.container {
+  background-color: black;
+  margin: 0, auto;
+}
+
+header {
+  text-align: center;
 }
 
 h1 {
-    color: goldenrod;
+  color: orange;
+  font-size: 400%;
 }
 
 h2 {
-    color: grey
+  color: grey;
+  font-size: 250%;
 }
 
 h3 {
-    color: blue;
+  color: blue;
+  font-size: 300%;
 }
 
-#profilePicture {
-    width: 200px;
-    height: 200px;
-    border-radius: 110px;
-    border: black solid 10px;
+#profile-picture {
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  border: rgb(201, 44, 68) solid 10px;
+  margin-top: 5%;
 }
+
+.flex-container {
+  display: flex;
+  justify-content:space-around;
+  align-items: flex-start;
+}
+
+.left-column {
+  background-color: orange;
+  width: 30%; 
+}
+
+.right-column {
+  background-color: brown;
+  width: 70%;
+} 
+

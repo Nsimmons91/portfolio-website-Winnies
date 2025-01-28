@@ -13,57 +13,61 @@
   </head>
 
   <body>
-    <header>
-      <img id="profilePicture" src="./assets/images/profilePicture.jpeg" alt="profile picture">
-      <h1>Winnie Kelley</h1>
-      <h3>Your Future Game Developer</h3>
-    </header>
-
-    <div id="leftColumn">
-      <section>
-        <h2>Past Experiences</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-      </section>
+    <div class="container">
+      <header>
+        <img id="profile-picture" src="./assets/images/profilePicture.jpeg" alt="profile picture">
+        <h1>Winnie Kelley</h1>
+        <h3>Your Future Game Developer</h3>
+      </header>
+      
+      <div class="flex-container">
+        <div class="left-column">
+          <div id="navBar">
+            <ul>
+              <li>About Me</li>
+              <li>My Projects</li>
+              <li>What I'm working on</li>
+              <li>Follow my social media</li>
+              <li>Contact Me</li>
+            </ul>
+          </div>
+        </div>
   
-      <section>
-        <form>
-          <label for="rightColumn">* Name</label>
-          <input id="contactFormName" required>
-  
-          <label for="contactFormEmail">* Email</label>
-          <input id="contactFormEmail" required>
-  
-          <label for="contactFormPhoneNumber">Phone Number</label>
-          <input id="contactFormPhoneNumber" required>
-  
-          <label for="contactFormAddressLabel">Address</label>
-          <label for="contactFormAddress">* Street Address</label>
-          <input id="contactFormAddress" required>
-          <label for="contactFormAptUnit">Apt / Unit</label>
-          <input id="contactFormAptUnit">
-          <label for="contactFormCity">* City</label>
-          <input id="contactFormCity" required>
-          <label for="contactFormState">* State</label>
-          <input id="contactFormState" required>
-          <label for="contactFormAZip">* Zip</label>
-          <input id="contactFormZip" required>
-        </form>
-      </section>
-    </div>
-    
-    <div id="leftColumn">
-      <div id="navBar">
-        <ul>
-          <li>About Me</li>
-          <li>My Projects</li>
-          <li>What I'm working on</li>
-          <li>Follow my social media</li>
-          <li>Contact Me</li>
-        </ul>
+        <div class="right-column">
+          <section>
+            <h2>Past Experiences</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </section>
+        
+          <section>
+            <form>
+              <label for="rightColumn">* Name</label>
+              <input id="contactFormName" required>
+        
+              <label for="contactFormEmail">* Email</label>
+              <input id="contactFormEmail" required>
+        
+              <label for="contactFormPhoneNumber">Phone Number</label>
+              <input id="contactFormPhoneNumber" required>
+        
+              <label for="contactFormAddressLabel">Address</label>
+              <label for="contactFormAddress">* Street Address</label>
+              <input id="contactFormAddress" required>
+              <label for="contactFormAptUnit">Apt / Unit</label>
+              <input id="contactFormAptUnit">
+              <label for="contactFormCity">* City</label>
+              <input id="contactFormCity" required>
+              <label for="contactFormState">* State</label>
+              <input id="contactFormState" required>
+              <label for="contactFormAZip">* Zip</label>
+              <input id="contactFormZip" required>
+            </form>
+          </section>
+        </div>
       </div>
     </div>
   </body>
