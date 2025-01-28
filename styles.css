@@ -14,3 +14,10 @@ h2 {
 h3 {
     color: blue;
 }
+
+#profilePicture {
+    width: 200px;
+    height: 200px;
+    border-radius: 110px;
+    border: black solid 10px;
+}
