@@ -1,54 +1,38 @@
 body {
-  background-color: aquamarine;
+  background-image: linear-gradient(white, orange) !important;
+  background-color: white;
   font-family: gaegu;
   color: white;
 }
 
 .container {
-  background-color: black;
   margin: 0, auto;
-}
-
-header {
-  text-align: center;
-}
-
-h1 {
-  color: orange;
-  font-size: 400%;
-}
-
-h2 {
-  color: grey;
-  font-size: 250%;
-}
-
-h3 {
-  color: blue;
-  font-size: 300%;
-}
-
-#profile-picture {
-  width: 40%;
-  height: 40%;
-  border-radius: 50%;
-  border: rgb(201, 44, 68) solid 10px;
-  margin-top: 5%;
+  /* background-color: aqua; */
 }
 
 .flex-container {
   display: flex;
   justify-content:space-around;
-  align-items: flex-start;
 }
 
-.left-column {
-  background-color: orange;
-  width: 30%; 
-}
-
-.right-column {
-  background-color: brown;
+.header-left-column {
+  /* background-color: pink; */
   width: 70%;
-} 
+}
 
+.header-right-column {
+  /* background-color: slateblue; */
+  width: 30%;
+  text-align: right;
+  padding-right: 4%;
+  padding-top: 5%;
+}
+
+#profile-picture {
+  width: 75%;
+  height: 70%;
+  border-radius: 50%;
+  border: rgb(201, 44, 68) solid 8px !important;
+  border: red dashed 10px;
+  margin-top: 3%;
+}

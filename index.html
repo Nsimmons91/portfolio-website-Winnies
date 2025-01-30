@@ -15,25 +15,36 @@
   <body>
     <div class="container">
       <header>
-        <img id="profile-picture" src="./assets/images/profilePicture.jpeg" alt="profile picture">
-        <h1>Winnie Kelley</h1>
-        <h3>Your Future Game Developer</h3>
-      </header>
-      
-      <div class="flex-container">
-        <div class="left-column">
-          <div id="navBar">
-            <ul>
-              <li>About Me</li>
-              <li>My Projects</li>
-              <li>What I'm working on</li>
-              <li>Follow my social media</li>
-              <li>Contact Me</li>
-            </ul>
+        <!-- <input type="checkbox" id="hamburger-checkbox"/>
+        <label class="toggleButton" for="toggle">
+          <span class="hamburger-buttons"></span>
+        </label>
+
+        <nav>
+          <a href="./index.html"><li>Home</li></a>
+          <a href="./aboutMe.html"><li>About Me</li></a>
+          <a href="./myProjects.html"><li>My Projects</li></a>
+          <a href="./workingOn.html"><li>What I'm working on</li></a>
+          <a href="./followMe.html"><li>Follow me</li></a>
+          <a. href="./contactMe.html"><li>Contact me</li></a>
+        </nav> -->
+        
+        <div class="flex-container">
+          <div class="header-left-column">
+            <button>Change the theme</button>
+            <button>Suprise</button>
+          </div>
+
+          <div class="header-right-column">
+            <img id="profile-picture" src="./assets/images/profilePicture.jpeg" alt="profile picture">
+            <h1>Winnie Kelley</h1>
+            <h3>Your Future Software Engineer</h3>
           </div>
         </div>
-  
-        <div class="right-column">
+      </header>
+        
+      <div class="flex-container">  
+        <div class="content-left-column">
           <section>
             <h2>Past Experiences</h2>
             <ul>
@@ -46,29 +57,44 @@
           <section>
             <form>
               <label for="rightColumn">* Name</label>
-              <input id="contactFormName" required>
+              <input id="contactFormName" required/>
         
               <label for="contactFormEmail">* Email</label>
-              <input id="contactFormEmail" required>
+              <input id="contactFormEmail" required/>
         
               <label for="contactFormPhoneNumber">Phone Number</label>
-              <input id="contactFormPhoneNumber" required>
+              <input id="contactFormPhoneNumber" required/>
         
               <label for="contactFormAddressLabel">Address</label>
               <label for="contactFormAddress">* Street Address</label>
-              <input id="contactFormAddress" required>
+              <input id="contactFormAddress" required/>
               <label for="contactFormAptUnit">Apt / Unit</label>
-              <input id="contactFormAptUnit">
+              <input id="contactFormAptUnit"/>
               <label for="contactFormCity">* City</label>
-              <input id="contactFormCity" required>
+              <input id="contactFormCity" required/>
               <label for="contactFormState">* State</label>
-              <input id="contactFormState" required>
+              <input id="contactFormState" required/>
               <label for="contactFormAZip">* Zip</label>
-              <input id="contactFormZip" required>
+              <input id="contactFormZip" required/>
             </form>
           </section>
+        </div>
+
+        <div class="content-right-column">
+          <div id="nav-bar">
+            <ul>
+              <li><a href="./index.html">About Me</a></li>
+              <li><a href="./index.html">My Projects</a></li>
+              <li><a href="./index.html">What I'm working on</a></li>
+              <li><a href="./index.html">Follow Me</a></li>
+              <li><a href="./index.html">Contact Me</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </body>
 </html>
+
+
+
