@@ -37,10 +37,11 @@ h3 {
   margin-top: 5%;
 }
 
-.flex-container {
+.flex-container-bullets {
   display: flex;
   justify-content:space-around;
   align-items: flex-start;
+  font-size: 18px;
 }
 
 .left-column {
