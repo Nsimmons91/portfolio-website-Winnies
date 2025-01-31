@@ -10,48 +10,55 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+
+    <!-- Web Design Patter: css cards - card4 -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
   </head>
 
-  <body>
+  <body class="change-theme">
     <div class="container">
-      <header>
-        <!-- <input type="checkbox" id="hamburger-checkbox"/>
-        <label class="toggleButton" for="toggle">
-          <span class="hamburger-buttons"></span>
-        </label>
+      <header>        
+        <img id="profile-picture" src="./assets/images/profilePicture.jpeg" alt="profile picture">
+        <h1>Winnie Kelley</h1>
+        <h3>Your Future Software Engineer</h3>
 
-        <nav>
-          <a href="./index.html"><li>Home</li></a>
-          <a href="./aboutMe.html"><li>About Me</li></a>
-          <a href="./myProjects.html"><li>My Projects</li></a>
-          <a href="./workingOn.html"><li>What I'm working on</li></a>
-          <a href="./followMe.html"><li>Follow me</li></a>
-          <a. href="./contactMe.html"><li>Contact me</li></a>
-        </nav> -->
-        
-        <div class="flex-container">
-          <div class="header-left-column">
-            <button>Change the theme</button>
-            <button>Suprise</button>
-          </div>
-
-          <div class="header-right-column">
-            <img id="profile-picture" src="./assets/images/profilePicture.jpeg" alt="profile picture">
-            <h1>Winnie Kelley</h1>
-            <h3>Your Future Software Engineer</h3>
-          </div>
-        </div>
+        <section>
+          <button>Change the theme</button>
+          <button>Suprise</button>  
+        </section>
       </header>
         
       <div class="flex-container">  
         <div class="content-left-column">
           <section>
             <h2>Past Experiences</h2>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
+            <div class="skills-flex-container">
+              <div class="skills-container">
+                <img src="./assets/images/html-logo.png" alt="html" class="skills-image">
+                <div class="skills-text-container">
+                  <div class="skills-text">HTML</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-flex-container">
+              <div class="skills-container">
+                <img src="./assets/images/css-logo.png" alt="html" class="skills-image">
+                <div class="skills-text-container">
+                  <div class="skills-text">CSS</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-flex-container">
+              <div class="skills-container">
+                <img src="./assets/images/js-logo.png" alt="html" class="skills-image">
+                <div class="skills-text-container">
+                  <div class="skills-text">JS</div>
+                </div>
+              </div>
+            </div>
           </section>
         
           <section>
@@ -93,6 +100,8 @@
         </div>
       </div>
     </div>
+
+    <script>
   </body>
 </html>
 
